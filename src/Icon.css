@@ -1,0 +1,42 @@
+.icon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon > div{
+    margin-left: 15px;
+    text-align: center;
+    
+}
+.icon .profile{
+    color:grey;
+    cursor:pointer;
+   
+}
+.icon .heart{
+    color:grey;
+    cursor:pointer;
+}
+.icon .basket{
+    color:grey;
+    cursor:pointer;
+}
+.icon p{
+    font-weight: bolder;
+    font-size: small;
+
+}
+@media  only screen and (min-width:400px) and (max-width:600px){
+    .icon p{
+        font-weight: bolder;
+        font-size: xx-small;
+    }    
+    .icon > div{
+        margin-left: 10px;
+        text-align: center;
+        
+    }
+    
+}

@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 1em;
+    margin-left: 9em;
+    margin-right: 9em;
+    
+}
+.footer .socio{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+.footer .socio img {
+    width:10em;
+    height: 5em;
+    margin-top:2em;
+
+}
+.footer .socio .h2{
+    margin-bottom: 1em;
+    margin-top: 2.5em;
+}
+
+.footer h2 {
+    color:black
+}
+.sidelinks,.online_shopping p{
+    color:rgb(185, 184, 184);
+    margin-top:10px;
+    margin-bottom: 10px;
+} 

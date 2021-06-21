@@ -1,0 +1,9 @@
+.circle_block > img{
+
+    width:11.5em;
+    height: 11.5em;
+    cursor: pointer;
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+
+}

@@ -1,0 +1,70 @@
+.maincontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #f7f7f7;
+    
+    
+}
+.maincontent > img{
+    width:25vw;
+    height: 1.2rem;
+    align-self:center ;
+    margin-top: 10px;
+    margin-bottom:20px ;
+}
+.offers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.maincontent h4{
+color:rgba(32, 32, 32, 0.89);
+margin-left: 1em;
+font-size: 2rem;
+margin-top: 2rem;
+letter-spacing: 1.2px;
+
+}
+.Brands{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+
+    
+}
+.categories_to_bag{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.explore_new_brands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4em;
+    margin-left: 2em;
+    margin-right: 2em;
+
+}
+.trending_in_western_wear{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    margin-top: 4em;
+    margin-left: 2em;
+    margin-right: 2em;
+
+}

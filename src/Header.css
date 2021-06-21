@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 12px;
+  height: 10vh;
+  
+}
+.header .logo > img {
+  width: 6em;
+  height: 3.5em;
+
+  
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.logo h5 {
+  margin: 1em 1em;
+  cursor: pointer;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.search{
+  border:1px solid lightgray;
+  padding:10px 10px;
+  position: relative;
+  display: flex;
+  width: 30%;
+  align-items: center;
+  font-size: 5px;
+  color: rgb(214, 211, 211);
+
+
+}
+
+
+
+.search input[type=text]{
+    position: relative;
+    outline: none;
+    width: 95%;
+    border: none;
+    margin-left: 5px;
+    border-left: lightgray 1px solid ;
+    color: rgba(204, 200, 200, 0.767);
+
+    
+    
+
+
+}
+.search_logo{
+    color:gray;
+
+}
+.search_bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media  only screen and (min-width:400px) and (max-width:600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    height: 20vh;
+    flex-wrap: wrap;
+    
+    
+  }
+  .logo h5 {
+    margin: 0.5em 0.5em;
+    cursor: pointer;
+    font-size: x-small;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  .search{
+    border:0.5px solid lightgrey;
+
+    display: flex;
+    width: 30%;
+    align-items: center;
+    font-size: 5px;
+    color: lightgrey;
+
+
+}
+  
+.search input[type=text]{
+  position: relative;
+  outline: none;
+  width: 90%;
+  border: none;
+
+  
+  
+
+
+}
+.header .logo > img {
+  width: 4em;
+  height: 2.5em;
+
+  
+}
+
+  
+}
